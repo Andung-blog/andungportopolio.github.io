@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+    .mySlides {display:none;}
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!--CSS-->
+    <style>
+      section{
+      min-height: 420px;
+    }
+  </style>
+
+    <title>Andung-Portopolio</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-success">
+       <div class="container">
+  <a class="navbar-brand" href="#">Andung</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#hobi">Hobi</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </div>
+  </div>
+</div>
+</nav>
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <img src="myfoto.jpg" width="15%" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Andung</h1>
+        <p class="lead">Welcome to my first website.</p>
+      </div>
+    </div>
+
+     <section id="about" class="about">      
+     <div class="container">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h2>About</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-md-5">
+          <p>Nama saya andung,saya kelahiran tahun 2003.Saya saat ini bersekolah di SMK Negeri 2 Trenggalek mengambil jurusan RPL.
+             Saya mengambil jurusan ini karena ketertarikan saya dibidang teknologi.Saya sangat senang akan perkembangan teknologi saat ini.
+             Saya mempunyai cita-cita menjadi programmer dan game development.
+        </p>
+      </div>
+      <div class="col-md-5">
+        <p>Saya membuat web portopolio ini karena sekolah melaksanakan kegiatan prakerin,prakerin juga merupakan langkah awal saya untuk bisa maju kedepan
+           menjadi lebih baik lagi.^_^.Sekali lagi Welcome to my first web</p>
+    </div>
+    </div>
+    <h3 class="w3-center">Tempat Wisata Yang Sangat Ingin Saya Kunjungi</h3>
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides" src="img/benteng.jpg" style="width:100%">
+      <img class="mySlides" src="img/kyoto.jpg" style="width:100%">
+      <img class="mySlides" src="img/temple.jpg" style="width:100%">
+      <img class="mySlides" src="img/mountfuji.jpg" style="width:100%">
+    </div>
+
+    <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000);
+    }
+    </script>
+      </div>
+
+  </section>
+
+<section id="hobi" class="hobi bg-light mb-4">
+          <div class="container">
+        <div class="row pt-4 mb-4">
+              <div class="col text-center">
+                <h2>Hobi</h2>
+              </div>
+              </div>
+            </div>
+             <div class="container">
+              <div class="row mb-3 pb-3">
+                <div class="col">
+                  <div class="card">
+        <img src="img/images1.jpg" class="w3-animate-fading" class="card-img-top" style="width:100%">
+        <div class="card-body">
+          <p class="card-text">Bermain Games Online.</p>
+                  </div>
+                </div>
+            </div>
+           <div class="col">
+                  <div class="card">
+        <img src="img/images2.jpg" class="w3-animate-fading" class="card-img-top" style="width:100%">
+        <div class="card-body">
+          <p class="card-text">Mendengarkan Musik.</p>
+                      </div>
+                  </div>
+                </div>
+               </div> 
+                <div class="row pb-3">
+                <div class="col">
+                  <div class="card">
+        <img src="img/images3.jpg" class="w3-animate-fading" class="card-img-top" style="width:100%">
+        <div class="card-body">
+          <p class="card-text">Menonton Anime.</p>
+                        </div>
+                      </div>
+                  </div>
+                 <div class="col">
+                  <div class="card">
+        <img src="img/images4.jpg" class="w3-animate-fading" class="card-img-top" style="width:100%">
+        <div class="card-body">
+          <p class="card-text">Berenang (tapi belum bisa).</p>
+                    </div>
+                </div>
+              </div>
+             </div> 
+           </div>
+                </section>
+       <section id="contact" class="about mb-5">
+        <div class="container">
+          <div class="row pt-4 mb-4">
+            <div class="col text-center">
+              <h2>Contact</h2>
+              <span><b>Hubungi Saya di :</b><br/>
+          Phone: 085850652835<br/>
+          atau email: dimasandung04@gmail.com</span>
+          <br/>
+            <h2>Contact Us</h2><br/>
+          </div>
+        </div>
+                <div class="row justify-content-center">
+                  <div class="col-lg-4">
+                    <div class="card text-white bg-success mb-3">
+                <div class="card-body">
+            <h5 class="card-title">Contact Me</h5>
+            <p class="card-text">Silahkan hubungi kontak diatas.Atau isi form yang sudah tersedia.Say Hello^_^</p>
+
+          </div>
+        </div>
+        <ul class="list-group">
+            <li class="list-group-item"><h1>Location</h1></li>
+            <li class="list-group-item"><h4>My House</h4></li>
+            <li class="list-group-item">Rt.03,Rw.01,Dsn.Kedungmaron,
+                                        Ds.Mlinjon,Suruh,Trenggalek</li>
+            <li class="list-group-item">Jawa Timur,Indonesia</li>
+          </ul>
+      </div>
+
+      <div class="col-lg-6">
+              <form>
+         <div class="mb-3 pt-3">
+          <label for="nama" class="form-label"><b>Name</b></label>
+          <input type="text" class="form-control" id="nama" placeholder="Your name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label"><b>Email address</b></label>
+          <input type="text" class="form-control" id="email" placeholder="Your email address">
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label"><b>Phone</b></label>
+          <input type="number" class="form-control" id="phone" placeholder="Your number Phone">
+        </div>
+        <div class="mb-3">
+          <input type="radio" name="Jenis Kelamin"> Laki-laki
+          <input type="radio" name="Jenis Kelamin"> Perempuan
+        </div>
+        <div class="mb-3">
+          <label for="tanggal" class="form-label"><b>Tanggal</b></label>
+          <input type="date" class="form-control" id="tanggal">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label"><b>Message</b></label>
+          <textarea name="message" id="message" class="form-control" placeholder="Enter Your message for details"></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <div class="mb-3">
+        <button type="submit" class="btn btn-success">Submit</button>
+        <button type="reset" class="btn btn-danger">Reset</button>
+      </form>
+    </div>
+  </section>
+
+<div class="w3-container">
+  <div class="w3-bar text-center">
+      <a href="index.html" class="w3-button w3-hover-purple"><<</a>
+      <a href="index.html" class="w3-button w3-hover-green">1</a>
+      <a href="blog.html" class="w3-button w3-hover-red">2</a>
+      <a href="blog.html" class="w3-button w3-hover-orange">>></a>
+    </div>
+
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col text-center">
+            <p>Copyright 2020 by Andung Prayoga</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+                      
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
